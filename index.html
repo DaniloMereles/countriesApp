@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Countries App</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="navbar__logo">
+            Where in the world?
+        </a>
+
+        <button class="navbar__mode" id="mode-btn">
+            <i class='bx bx-moon'></i>
+            Dark Mode
+        </button>
+    </nav>
+
+
+    <main class="main">
+        <form class="form" id="form-search">
+            <div class="form__group">
+                <input type="text" placeholder="Seach for a country..." class="form__input" id="search-country">
+                <i class='bx bx-search form__icon'></i>
+            </div>
+        </form>
+
+        <div class="countries" id="countries">
+            <!--
+                <article class="country">
+                <img src="./alemania.jpg" alt="alemania" class="country__flag">
+
+                <div class="country__info">
+                    <h2 class="country__name">
+                        Germany
+                    </h2>
+
+                    <p class="country__data">
+                        <b class="country__data-title">Population:</b> 81,770,900
+                    </p>
+
+                    <p class="country__data">
+                        <b class="country__data-title">Region:</b> Europe
+                    </p>
+
+                    <p class="country__data">
+                        <b class="country__data-title">Capital:</b> Berlin
+                    </p>
+                </div>
+            </article>
+            -->
+
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/app.js" type="module"></script>
+</body>
+</html>
