@@ -1,4 +1,4 @@
-export const Mode = ()=>{
+const Mode = ()=>{
     const btnMode = document.getElementById('mode-btn')
 
     btnMode.addEventListener('click', ()=>{
@@ -29,3 +29,5 @@ export const Mode = ()=>{
         document.body.className.remove('dark')
     }
 }
+
+Mode()

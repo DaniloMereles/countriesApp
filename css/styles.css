@@ -150,3 +150,125 @@ a{
     font-weight: 600;
     font-size: 14px;
 }
+
+.btn-back{
+    outline: none;
+    border: none;
+    width: 110px;
+    height: 30px;
+    background-color: var(--Elements);
+    color: var(--Texts);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-back__link{
+    color: var(--Texts);
+}
+
+.more-info{
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-align: center;
+    color: var(--Texts);
+}
+
+.datail{
+    width: 80%;
+    height: 400px;
+    margin: 20px auto;
+    display: flex;
+}
+
+.detail__texts-title{
+    margin-bottom: 20px;
+    color: var(--Texts);
+}
+
+.detail__title{
+    font-weight: 600;
+    font-family: 15px;
+    margin-right: 5px;
+}
+
+.deatil__texts{
+    width: 50%;
+    height: 80%;
+    margin: 30px;
+    color: var(--Texts);
+}
+
+.detail__grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.detail__info{
+    margin-bottom: 10px;
+}
+
+
+.detail__borders{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.detail__subtitle{
+    font-size: 16px;
+}
+
+@media(max-width: 475px){
+    .navbar{
+        width: 100%;
+    }
+
+    .navbar__logo{
+        font-size: 14px;
+    }
+
+    .navbar__mode{
+        font-size: 13px;
+    }
+
+    .navbar__mode:hover{
+        cursor: default;
+    }
+
+    .main{
+        width: 100%;
+    }
+
+    .form{
+        width: 100%;
+    }
+
+    .form__group{
+        width: 100%;
+    }
+
+    .countries{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .country{
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+}

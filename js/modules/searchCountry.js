@@ -17,8 +17,6 @@ export const searchCountry = country => {
                 return data 
             }
         })
-
-        console.log(countryFilter);
         renderCountries(countryFilter)
     })
 }

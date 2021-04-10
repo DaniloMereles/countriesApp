@@ -25,11 +25,14 @@ export const renderCountries = (countries)=>{
                     <p class="country__data">
                         <b class="country__data-title">Capital:</b> ${element.capital}
                     </p>
+
+                    <p class="country__data">
+                        <a href="./country.html?name=${element.name}" class="more-info">More Info</a> 
+                    </p>
                 </div>
             </article>
         `
     });
 
     countriesElement.innerHTML = template
-
 }
